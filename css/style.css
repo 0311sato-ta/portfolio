@@ -1,3 +1,52 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #1e92f7;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li a {
+    margin-right: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1e92f7;
+    font-weight: bold;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    transition: .3s;
+}
+
+header ul li a:hover {
+    background-color: white;
+    color: #1e92f7;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    color: white;
     
 }
